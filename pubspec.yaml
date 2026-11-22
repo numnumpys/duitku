@@ -1,0 +1,27 @@
+name: duitku
+description: Aplikasi pencatat keuangan untuk mahasiswa.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  # Ditambahkan di hari berikutnya sesuai rencana:
+  # supabase_flutter: ^2.5.0   (Hari 2-3: backend + auth)
+  # fl_chart: ^0.69.0          (Hari 8: grafik laporan)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
